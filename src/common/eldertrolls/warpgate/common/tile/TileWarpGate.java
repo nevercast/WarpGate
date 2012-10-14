@@ -39,7 +39,7 @@ public class TileWarpGate extends TileETBase implements IInventory {
 
 	@Override
 	public String getInvName() {
-		return "container." + Constants.Blocks.WARPGATE_NAME;
+		return "container." + Constants.Blocks.WarpGateName;
 	}
 
 	@Override

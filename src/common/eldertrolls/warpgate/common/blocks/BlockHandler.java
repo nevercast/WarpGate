@@ -9,7 +9,7 @@ public class BlockHandler {
 	public static Block warpGate;
 	
 	public static void init(){
-		warpGate = new BlockWarpGate(Constants.Blocks.WARPGATE).setBlockName(Constants.Blocks.WARPGATE_NAME);
+		warpGate = new BlockWarpGate(Constants.Blocks.WarpGate).setBlockName(Constants.Blocks.WarpGateName);
 		
 		GameRegistry.registerBlock(warpGate);
 	}

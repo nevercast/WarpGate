@@ -10,6 +10,7 @@ import eldertrolls.warpgate.common.blocks.BlockHandler;
 import eldertrolls.warpgate.common.core.CommonProxy;
 import eldertrolls.warpgate.common.core.Constants;
 import eldertrolls.warpgate.common.core.Constants.Reference;
+import eldertrolls.warpgate.common.items.ItemHandler;
 
 @Mod(modid=Reference.MOD_ID, name = Reference.MOD_NAME, version=Reference.MOD_VERSION)
 @NetworkMod( channels = { Reference.NET_CHANNEL }, clientSideRequired = true, serverSideRequired = true)
@@ -26,11 +27,15 @@ public class ElderTrollsWarpGate {
 		
 		BlockHandler.init();
 		
+		ItemHandler.init();
+		
 		proxy.initRenderingAndTextures();
 		
 		proxy.initTileEntities();
 		
 		proxy.initLanguages();
+		
+		proxy.initRecipies();
 	}
 
 }

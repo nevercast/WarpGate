@@ -15,7 +15,7 @@ public class ClientProxy extends CommonProxy {
 	public void initRenderingAndTextures() {
 		Constants.Rendering.WARPGATE_RENDER = RenderingRegistry.getNextAvailableRenderId();
 		
-		MinecraftForgeClient.registerItemRenderer(Constants.Blocks.WARPGATE, new RenderItemWarpGate());
+		MinecraftForgeClient.registerItemRenderer(Constants.Blocks.WarpGate, new RenderItemWarpGate());
 
 	}
 	
