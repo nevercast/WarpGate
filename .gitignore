@@ -10,7 +10,11 @@ reobf/*
 runtime/*
 temp/*
 
-src/common/*
+src/common/cpw/*
+src/common/net/*
+src/common/org/*
+src/common/*.cfg
+src/common/*.properties
 src/minecraft/cpw/*
 src/minecraft/ibxm/*
 src/minecraft/net/*
