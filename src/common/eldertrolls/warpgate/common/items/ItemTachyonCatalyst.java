@@ -3,9 +3,9 @@ package eldertrolls.warpgate.common.items;
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Item;
 
-public class ItemTachyonFieldGen extends Item
+public class ItemTachyonCatalyst extends Item
 {
-    public ItemTachyonFieldGen(int i)
+    public ItemTachyonCatalyst(int i)
     {
         super(i);
         maxStackSize = 64;

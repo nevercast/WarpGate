@@ -50,5 +50,16 @@ public class BlockWarpGate extends BlockETBase {
 	public boolean canPlaceBlockAt(World par1World, int par2, int par3, int par4) {
 		return par1World.isBlockSolidOnSide(par2, par3-1, par4, ForgeDirection.UP);
 	}
+	
+	@Override
+	public void onNeighborBlockChange(World world, int x, int y,
+			int z, int par4) {
+		
+		/* Check that we are still on a solid block */
+		if(!world.isBlockSolidOnSide(x, y-1, z, ForgeDirection.UP)){
+			this.dropBlockAsItem(world, x, y, z, world.getBlockMetadata(x, y, z), 0);
+			world.setBlockWithNotify(x, y, z, 0);
+		}
+	}
 
 }

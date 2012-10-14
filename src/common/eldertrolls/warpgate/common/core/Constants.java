@@ -25,19 +25,22 @@ public final class Constants {
 		public static final int WarpGate = 569;
 		public static final String WarpGateFriendlyName = "Tachyon Warp Gate";
 		public static final String WarpGateName = "eldertrolls.warpGate";
+
+		public static final String TachyonHavesterName = "eldertrolls.tachyonHavester";
+		public static final String TachyonFieldGenName = "eldertrolls.tachyonFieldGen";
+		
+		public static final String TachyonHavesterFriendlyName = "Tachyon Fusion Havester";
+		public static final String TachyonFieldGenFriendlyName = "Tachyon Field Generator";
+
 	}
 	public final static class Items {
 		public static final int TachyonCrystal = 550, ItemTachyonPlate = 551, ItemTachyonExtractor = 552, ItemTachyonFieldGen = 553;
 		
 		public static final String TachyonCrystalName = "eldertrolls.tachyonCrystal";
-		public static final String TachyonPlateName = "eldertrolls.tachyonPlate";
-		public static final String TachyonExtractorName = "eldertrolls.tachyonExtractor";
-		public static final String TachyonFieldGenName = "eldertrolls.tachyonFieldGen";
+		public static final String TachyonCatalystName = "eldertrolls.tachyonCatalyst";
 		
 		public static final String TachyonCrystalFriendlyName = "Tachyon Crystal";
-		public static final String TachyonPlateFriendlyName = "Tachyon Catalyst";
-		public static final String TachyonExtractorFriendlyName = "Tachyon Fusion Extractor";
-		public static final String TachyonFieldGenFriendlyName = "Tachyon Field Generator";
+		public static final String TachyonCatalystFriendlyName = "Tachyon Catalyst";
 		
 		
 	}

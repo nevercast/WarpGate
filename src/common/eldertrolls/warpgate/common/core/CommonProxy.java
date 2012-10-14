@@ -23,9 +23,7 @@ public class CommonProxy {
 		LanguageRegistry.addName(BlockHandler.warpGate, Constants.Blocks.WarpGateFriendlyName);
 		
 		LanguageRegistry.addName(ItemHandler.ItemTachyonCrystal, Constants.Items.TachyonCrystalFriendlyName);
-		LanguageRegistry.addName(ItemHandler.ItemTachyonPlate, Constants.Items.TachyonPlateFriendlyName);
-		LanguageRegistry.addName(ItemHandler.ItemTachyonExtractor, Constants.Items.TachyonExtractorFriendlyName);
-		LanguageRegistry.addName(ItemHandler.ItemTachyonFieldGen, Constants.Items.TachyonFieldGenFriendlyName);
+		LanguageRegistry.addName(ItemHandler.ItemTachyonCatalyst, Constants.Items.TachyonCatalystFriendlyName);
 	}
 	
 	public void initRecipies(){
@@ -34,19 +32,10 @@ public class CommonProxy {
 				     "XZX", "ZYZ", "XZX", 'Z', Item.redstone, 'X', Item.lightStoneDust, 'Y', Item.diamond
 				    });
 		 
-		 GameRegistry.addRecipe(new ItemStack(ItemHandler.ItemTachyonPlate), new Object[]
+		 GameRegistry.addRecipe(new ItemStack(ItemHandler.ItemTachyonCatalyst), new Object[]
 				    {
 				     "IRI", "RTR", "IRI", 'R', Item.redstone, 'I', Item.ingotIron, 'Z', ItemHandler.ItemTachyonCrystal, 'T', Block.obsidian
 				    });
 		 
-		 GameRegistry.addRecipe(new ItemStack(ItemHandler.ItemTachyonExtractor), new Object[]
-				    {
-				     "XRX", "RXR", "TYT", 'R', Item.redstone, 'P', ItemHandler.ItemTachyonPlate,'Z', ItemHandler.ItemTachyonCrystal, 'T', Block.obsidian
-				    });
-		 
-		 GameRegistry.addRecipe(new ItemStack(ItemHandler.ItemTachyonFieldGen), new Object[]
-				    {
-				     "XZX", "ZXZ", "TYT", 'X', Item.ingotIron, 'Y', Item.redstone, 'Z', ItemHandler.ItemTachyonCrystal, 'T', Block.obsidian
-				    });	 
 	}
 }
