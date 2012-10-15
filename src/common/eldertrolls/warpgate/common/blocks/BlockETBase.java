@@ -12,7 +12,7 @@ public abstract class BlockETBase extends BlockContainer {
 	protected BlockETBase(int id, Material mat) {
 		super(id, mat);
 
-		setCreativeTab(CreativeTabs.tabDecorations);
+		setCreativeTab(CreativeTabs.tabBlock);
 	}
 	
 	@Override
