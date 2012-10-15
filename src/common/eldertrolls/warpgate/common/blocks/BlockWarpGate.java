@@ -17,7 +17,6 @@ public class BlockWarpGate extends BlockETBase {
 	protected BlockWarpGate(int id){
 		super(id, Material.rock);
 		setBlockBounds(2f/16f,0f,2f/16f,14f/16f,2f/16f,14f/16f);
-		setCreativeTab(CreativeTabs.tabDecorations);		
 	}
 
 	@Override

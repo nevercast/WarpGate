@@ -19,10 +19,12 @@ public final class Constants {
 		
 		public static final String PROXY_CLIENT = "eldertrolls.warpgate.client.core.ClientProxy";
 		public static final String PROXY_SERVER = "eldertrolls.warpgate.common.core.CommonProxy";
+		public static final String BLOCKTEXTURE = "/eldertrolls/warpgate/client/resources/blocks.png";
 		
 	}
 	public final static class Blocks {
 		public static final int WarpGate = 569;
+		public static final int CatalystOre = 570;
 		public static final String WarpGateFriendlyName = "Tachyon Warp Gate";
 		public static final String WarpGateName = "eldertrolls.warpGate";
 
@@ -31,6 +33,11 @@ public final class Constants {
 		
 		public static final String TachyonHavesterFriendlyName = "Tachyon Fusion Havester";
 		public static final String TachyonFieldGenFriendlyName = "Tachyon Field Generator";
+		
+		public static final int CatalystOreTexture = 0;
+		public static final String CatalystOreName = "eldertrolls.catalystOre";
+		public static final String CatalystOreFriendlyName = "Tachyon Catalyst Ore" +
+				"";
 
 	}
 	public final static class Items {

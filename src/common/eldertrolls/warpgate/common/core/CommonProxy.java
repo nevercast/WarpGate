@@ -21,6 +21,7 @@ public class CommonProxy {
 	
 	public void initLanguages() {
 		LanguageRegistry.addName(BlockHandler.warpGate, Constants.Blocks.WarpGateFriendlyName);
+		LanguageRegistry.addName(BlockHandler.catalystOre, Constants.Blocks.CatalystOreFriendlyName);
 		
 		LanguageRegistry.addName(ItemHandler.ItemTachyonCrystal, Constants.Items.TachyonCrystalFriendlyName);
 		LanguageRegistry.addName(ItemHandler.ItemTachyonCatalyst, Constants.Items.TachyonCatalystFriendlyName);
