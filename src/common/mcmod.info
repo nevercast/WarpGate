@@ -1,0 +1,17 @@
+[
+{
+  "modid": "eldertrolls_warpGate",
+  "name": "Warp Gates",
+  "description": "A ComputerCraft Peripheral allowing the teleportation of ComputerCraft Turtles",
+  "credits": "",
+  "logoFile": "",
+  "mcversion": "1.3.2",
+  "url": "https://github.com/nevercast",
+  "updateUrl": " ",
+  "authors": [ "Nevercast, Tjwato" ],
+  "screenshots": [ "", "" ],
+  "dependencies": [
+     "mod_ComputerCraft"
+  ]
+}
+]
