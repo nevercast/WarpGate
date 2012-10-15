@@ -30,12 +30,7 @@ public class CommonProxy {
 	public void initRecipies(){
 		 GameRegistry.addRecipe(new ItemStack(ItemHandler.ItemTachyonCrystal), new Object[]
 				    {
-				     "XZX", "ZYZ", "XZX", 'Z', Item.redstone, 'X', Item.lightStoneDust, 'Y', Item.diamond
-				    });
-		 
-		 GameRegistry.addRecipe(new ItemStack(ItemHandler.ItemTachyonCatalyst), new Object[]
-				    {
-				     "IRI", "RTR", "IRI", 'R', Item.redstone, 'I', Item.ingotIron, 'Z', ItemHandler.ItemTachyonCrystal, 'T', Block.obsidian
+				     "ICI", "CDC", "ICI", 'I', Item.ingotIron, 'C', ItemHandler.ItemTachyonCatalyst, 'D', Item.diamond
 				    });
 		 
 	}
