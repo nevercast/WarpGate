@@ -24,6 +24,7 @@ public class CommonProxy {
 		LanguageRegistry.addName(BlockHandler.catalystOre, Constants.Blocks.CatalystOreFriendlyName);
 		
 		LanguageRegistry.addName(ItemHandler.ItemTachyonCrystal, Constants.Items.TachyonCrystalFriendlyName);
+		LanguageRegistry.addName(ItemHandler.ItemTachyonIngot, Constants.Items.TachyonIngotFriendlyName);
 		LanguageRegistry.addName(ItemHandler.ItemTachyonCatalyst, Constants.Items.TachyonCatalystFriendlyName);
 	}
 	

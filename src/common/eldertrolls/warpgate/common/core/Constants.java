@@ -50,6 +50,12 @@ public final class Constants {
 		public static final String TachyonCatalystFriendlyName = "Tachyon Catalyst";
 
 		public static final String TextureFile = "/eldertrolls/warpgate/client/resources/items.png";
+
+		public static final int TachyonIngot = 553;
+
+		public static final String TachyonIngotName = "eldertrolls.tachyonIngot";
+
+		public static final String TachyonIngotFriendlyName = "Tachyon Ingot";
 		
 		
 	}

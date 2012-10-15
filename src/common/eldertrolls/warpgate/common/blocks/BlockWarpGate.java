@@ -1,5 +1,7 @@
 package eldertrolls.warpgate.common.blocks;
 
+import java.util.Random;
+
 import cpw.mods.fml.common.Side;
 import cpw.mods.fml.common.asm.SideOnly;
 import eldertrolls.warpgate.common.core.Constants.Rendering;
@@ -17,6 +19,7 @@ public class BlockWarpGate extends BlockETBase {
 	protected BlockWarpGate(int id){
 		super(id, Material.rock);
 		setBlockBounds(2f/16f,0f,2f/16f,14f/16f,2f/16f,14f/16f);
+		setHardness(3.5f);
 	}
 
 	@Override
@@ -59,6 +62,16 @@ public class BlockWarpGate extends BlockETBase {
 			this.dropBlockAsItem(world, x, y, z, world.getBlockMetadata(x, y, z), 0);
 			world.setBlockWithNotify(x, y, z, 0);
 		}
+	}
+	
+	@Override
+	public int idDropped(int par1, Random par2Random, int par3) {
+		return blockID;
+	}
+	
+	@Override
+	public int quantityDropped(int meta, int fortune, Random random) {
+		return 1;
 	}
 
 }
