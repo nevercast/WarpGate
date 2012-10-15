@@ -1,5 +1,7 @@
 package eldertrolls.warpgate.common.items;
 
+import cpw.mods.fml.common.Side;
+import cpw.mods.fml.common.asm.SideOnly;
 import eldertrolls.warpgate.common.core.Constants;
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Item;
@@ -12,4 +14,5 @@ public class ItemTachyonCatalyst extends ItemETBase
         maxStackSize = 64;
         this.setCreativeTab(CreativeTabs.tabMaterials);
     }
+    
 }
