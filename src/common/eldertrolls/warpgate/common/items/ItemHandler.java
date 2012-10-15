@@ -9,11 +9,12 @@ public class ItemHandler {
 	
 	public static Item ItemTachyonCrystal;
 	public static Item ItemTachyonCatalyst;
+	public static Item ItemTachyonCrystalCharged;
 	
 	public static void init(){
 				
-		ItemTachyonCrystal = new ItemTachyonCrystal(Constants.Items.TachyonCrystal).setIconCoord(1,0).setItemName(Constants.Items.TachyonCrystalName);
+		ItemTachyonCrystal = new ItemTachyonCrystal(Constants.Items.TachyonCrystal, false).setIconCoord(2,0).setItemName(Constants.Items.TachyonCrystalName);
 		ItemTachyonCatalyst = new ItemTachyonCatalyst(Constants.Items.TachyonCatalyst).setIconCoord(0, 0).setItemName(Constants.Items.TachyonCatalystName);
-		
+		ItemTachyonCrystalCharged = new ItemTachyonCrystal(Constants.Items.TachyonCrystalCharged, true).setIconCoord(1, 0).setItemName(Constants.Items.TachyonCrystalName);
 	}
 }
