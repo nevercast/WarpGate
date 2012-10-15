@@ -12,7 +12,8 @@ public class ItemHandler {
 	
 	public static void init(){
 				
-		ItemTachyonCrystal = new ItemTachyonCrystal(550).setIconIndex(1).setItemName(Constants.Items.TachyonCrystalName);
-		ItemTachyonCatalyst = new ItemTachyonCatalyst(551).setIconIndex(2).setItemName(Constants.Items.TachyonCatalystName);
+		ItemTachyonCrystal = new ItemTachyonCrystal(Constants.Items.TachyonCrystal).setIconIndex(1).setItemName(Constants.Items.TachyonCrystalName);
+		ItemTachyonCatalyst = new ItemTachyonCatalyst(Constants.Items.TachyonCatalyst).setIconCoord(0, 0).setItemName(Constants.Items.TachyonCatalystName);
+		
 	}
 }

@@ -41,13 +41,15 @@ public final class Constants {
 
 	}
 	public final static class Items {
-		public static final int TachyonCrystal = 550, ItemTachyonPlate = 551, ItemTachyonExtractor = 552, ItemTachyonFieldGen = 553;
+		public static final int TachyonCrystal = 550, TachyonCatalyst = 551;
 		
 		public static final String TachyonCrystalName = "eldertrolls.tachyonCrystal";
 		public static final String TachyonCatalystName = "eldertrolls.tachyonCatalyst";
 		
 		public static final String TachyonCrystalFriendlyName = "Tachyon Crystal";
 		public static final String TachyonCatalystFriendlyName = "Tachyon Catalyst";
+
+		public static final String TextureFile = "/eldertrolls/warpgate/client/resources/items.png";
 		
 		
 	}

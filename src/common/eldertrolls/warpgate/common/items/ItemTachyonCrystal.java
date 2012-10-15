@@ -1,9 +1,10 @@
 package eldertrolls.warpgate.common.items;
 
+import eldertrolls.warpgate.common.core.Constants;
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Item;
 
-public class ItemTachyonCrystal extends Item
+public class ItemTachyonCrystal extends ItemETBase
 {
     public ItemTachyonCrystal(int i)
     {
@@ -11,4 +12,5 @@ public class ItemTachyonCrystal extends Item
         maxStackSize = 64;
         this.setCreativeTab(CreativeTabs.tabMaterials);
     }
+    
 }
